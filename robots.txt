@@ -1,0 +1,16 @@
+# robots.txt — QDLS.io
+# https://qdls.io/robots.txt
+# Last updated: 2026-04-13
+
+User-agent: *
+Allow: /
+
+# Block admin, API, and internal paths from crawlers
+Disallow: /admin/
+Disallow: /api/
+Disallow: /storage/
+Disallow: /public/content/
+Disallow: /?output=json
+Disallow: /?output=csv
+
+Sitemap: https://qdls.io/sitemap.xml
